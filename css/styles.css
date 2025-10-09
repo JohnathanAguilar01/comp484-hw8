@@ -1,26 +1,43 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+#213555 - color 1
+#3E5879 - color 2
+#D8C4B6 - color 3
+#F5EFE7 - color 4
 */
 
 /* Global styles 
 ------------------------------------*/
+:root {
+  --primary-color: #213555;
+  --secondary-color: #3E5879;
+  --tertiary-color:  #D8C4B6;
+  --quaternary-color: #F5EFE7;
+}
+
 body {
-    background: lightblue;
+  background: var(--quaternary-color);
+  font-family:  'Roboto Slab', 'BBH Sans Hegarty', serif;
 }
 
 
 /* Header & Footer 
 ------------------------------------*/
-
+.head-foot {
+  background: var(--tertiary-color-color);
+}
 
 
 /* Work Experience
 ------------------------------------*/
-
+.work {
+  background: var(--primary-color);
+  color: var(--quaternary-color);
+}
 
 
 /* Education
 ------------------------------------*/
+.education {
+  background: var(--primary-color);
+  color: var(--quaternary-color);
+}
