@@ -46,6 +46,13 @@ ul li {
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
+  padding: 50px;
+}
+
+.content-wrap h1,
+.content-wrap h2,
+.content-wrap h3 {
+  margin-top: 0;
 }
 
 
