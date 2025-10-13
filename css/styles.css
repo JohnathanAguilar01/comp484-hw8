@@ -17,6 +17,7 @@
 body {
   background: var(--quaternary-color);
   font-family:  'Roboto Slab', 'BBH Sans Hegarty', serif;
+  margin: 0;
 }
 
 h1 {
@@ -60,6 +61,15 @@ ul li {
 ------------------------------------*/
 .head-foot {
   background: var(--tertiary-color);
+}
+
+footer {
+  text-align: center;
+}
+
+.contact-info a {
+  padding: 10px; 
+  display: inline-block;
 }
 
 
