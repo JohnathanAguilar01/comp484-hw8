@@ -43,6 +43,11 @@ ul li {
   font-weight: 300;
 }
 
+.content-wrap {
+  width: 950px;
+  margin: 0 auto;
+}
+
 
 /* Header & Footer 
 ------------------------------------*/
